@@ -1,0 +1,2 @@
+circle_motion:get_postition:set_background_color:spawn_turtle
+-DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/yin/Documents/Github/ROS_learn/Chapter1/practice1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yin/Documents/Github/ROS_learn/Chapter1/practice1_ws/install -G Unix Makefiles

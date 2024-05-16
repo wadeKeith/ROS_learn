@@ -1,0 +1,8 @@
+prefix=/home/yin/Documents/Github/ROS_learn/Chapter1/practice1_ws/install
+
+Name: circle_motion
+Description: Description of circle_motion
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

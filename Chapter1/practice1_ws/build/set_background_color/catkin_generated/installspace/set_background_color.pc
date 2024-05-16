@@ -1,0 +1,8 @@
+prefix=/home/yin/Documents/Github/ROS_learn/Chapter1/practice1_ws/install
+
+Name: set_background_color
+Description: Description of set_background_color
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

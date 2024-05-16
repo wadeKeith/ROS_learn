@@ -1,0 +1,8 @@
+prefix=/home/yin/Documents/Github/ROS_learn/Chapter1/practice1_ws/install
+
+Name: spawn_turtle
+Description: Description of spawn_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
