@@ -8,7 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/usr/local/cuda-12.4/lib64'
+export LD_LIBRARY_PATH='/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/devel/lib:/opt/ros/noetic/lib:/usr/local/cuda-12.4/lib64'
+export PKG_CONFIG_PATH="/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/build'
+export PYTHONPATH="/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES='/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/src:$ROS_PACKAGE_PATH"

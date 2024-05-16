@@ -166,6 +166,9 @@ catkin_install_python(PROGRAMS
   scripts/listener_msg.py
   scripts/server.py
   scripts/client.py
+  scripts/parmeters_add.py
+  scripts/parmeters_get.py
+  scripts/parmeters_del.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

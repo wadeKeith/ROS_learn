@@ -120,3 +120,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hello" TYPE PROGRAM FILES "/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/build/hello/catkin_generated/installspace/client.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hello" TYPE PROGRAM FILES "/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/build/hello/catkin_generated/installspace/parmeters_add.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hello" TYPE PROGRAM FILES "/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/build/hello/catkin_generated/installspace/parmeters_get.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hello" TYPE PROGRAM FILES "/home/yin/Documents/Github/ROS_learn/Chapter1/helloworld/build/hello/catkin_generated/installspace/parmeters_del.py")
+endif()
+
