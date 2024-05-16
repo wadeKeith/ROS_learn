@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="hello" type="talker.py" name="talker"/>
+    <node pkg="hello" type="listener.py" name="listener" />
+</launch>
