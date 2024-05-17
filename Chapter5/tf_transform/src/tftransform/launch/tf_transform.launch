@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="tftransform" type="tf_subscriber.py" name="tf_transform_sub_node" output="screen">
+        <!-- <param name="source_frame" value="base_link"/>
+        <param name="target_frame" value="odom"/>
+        <param name="rate" value="10"/> -->
+    </node>
+    <node pkg="tftransform" type="tf_publisher.py" name="tf_transform_pub_node" output="screen"></node>
+</launch>
