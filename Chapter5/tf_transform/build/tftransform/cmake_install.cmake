@@ -72,3 +72,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tftransform" TYPE PROGRAM FILES "/home/yin/Documents/Github/ROS_learn/Chapter5/tf_transform/build/tftransform/catkin_generated/installspace/child_parent_tf_transform_subcriber.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tftransform" TYPE PROGRAM FILES "/home/yin/Documents/Github/ROS_learn/Chapter5/tf_transform/build/tftransform/catkin_generated/installspace/follow_turtle_server.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tftransform" TYPE PROGRAM FILES "/home/yin/Documents/Github/ROS_learn/Chapter5/tf_transform/build/tftransform/catkin_generated/installspace/follow_turtle_publisher.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tftransform" TYPE PROGRAM FILES "/home/yin/Documents/Github/ROS_learn/Chapter5/tf_transform/build/tftransform/catkin_generated/installspace/follow_turtle_subscriber.py")
+endif()
+

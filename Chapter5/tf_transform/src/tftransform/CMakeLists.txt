@@ -170,6 +170,9 @@ catkin_install_python(PROGRAMS
   scripts/dynamic_tf_publisher.py
   scripts/dynamic_tf_subscriber.py
   scripts/child_parent_tf_transform_subcriber.py
+  scripts/follow_turtle_server.py
+  scripts/follow_turtle_publisher.py
+  scripts/follow_turtle_subscriber.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
