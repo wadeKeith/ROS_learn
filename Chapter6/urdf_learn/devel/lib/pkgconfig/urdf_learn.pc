@@ -1,0 +1,8 @@
+prefix=/home/yin/Documents/Github/ROS_learn/Chapter6/urdf_learn/devel
+
+Name: urdf_learn
+Description: Description of urdf_learn
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
