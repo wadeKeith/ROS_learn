@@ -1,0 +1,8 @@
+prefix=/home/yin/Documents/Github/ROS_learn/Chapter10/action_learn/devel
+
+Name: action_learn
+Description: Description of action_learn
+Version: 0.0.0
+Cflags: -I/home/yin/Documents/Github/ROS_learn/Chapter10/action_learn/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs rospy std_msgs
